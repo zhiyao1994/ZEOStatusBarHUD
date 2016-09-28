@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		184801E51D9BD36D00B284F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 184801E41D9BD36D00B284F6 /* main.m */; };
+		184801E81D9BD36D00B284F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 184801E71D9BD36D00B284F6 /* AppDelegate.m */; };
+		184801EB1D9BD36D00B284F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184801EA1D9BD36D00B284F6 /* ViewController.m */; };
+		184801EE1D9BD36D00B284F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184801EC1D9BD36D00B284F6 /* Main.storyboard */; };
+		184801F01D9BD36D00B284F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184801EF1D9BD36D00B284F6 /* Assets.xcassets */; };
+		184801F31D9BD36D00B284F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184801F11D9BD36D00B284F6 /* LaunchScreen.storyboard */; };
+		184801FE1D9BD36D00B284F6 /* ZEOStatusBarHUDExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 184801FD1D9BD36D00B284F6 /* ZEOStatusBarHUDExampleTests.m */; };
+		184802091D9BD36D00B284F6 /* ZEOStatusBarHUDExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 184802081D9BD36D00B284F6 /* ZEOStatusBarHUDExampleUITests.m */; };
+		1848021A1D9BD3D300B284F6 /* ZEOStatusBarHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 184802171D9BD3D300B284F6 /* ZEOStatusBarHUD.bundle */; };
+		1848021B1D9BD3D300B284F6 /* ZEOStatusBarHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 184802191D9BD3D300B284F6 /* ZEOStatusBarHUD.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		184801FA1D9BD36D00B284F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 184801D81D9BD36D00B284F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184801DF1D9BD36D00B284F6;
+			remoteInfo = ZEOStatusBarHUDExample;
+		};
+		184802051D9BD36D00B284F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 184801D81D9BD36D00B284F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184801DF1D9BD36D00B284F6;
+			remoteInfo = ZEOStatusBarHUDExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		184801E01D9BD36D00B284F6 /* ZEOStatusBarHUDExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZEOStatusBarHUDExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		184801E41D9BD36D00B284F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		184801E61D9BD36D00B284F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		184801E71D9BD36D00B284F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		184801E91D9BD36D00B284F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		184801EA1D9BD36D00B284F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		184801ED1D9BD36D00B284F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		184801EF1D9BD36D00B284F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		184801F21D9BD36D00B284F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		184801F41D9BD36D00B284F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184801F91D9BD36D00B284F6 /* ZEOStatusBarHUDExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZEOStatusBarHUDExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		184801FD1D9BD36D00B284F6 /* ZEOStatusBarHUDExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZEOStatusBarHUDExampleTests.m; sourceTree = "<group>"; };
+		184801FF1D9BD36D00B284F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184802041D9BD36D00B284F6 /* ZEOStatusBarHUDExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZEOStatusBarHUDExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		184802081D9BD36D00B284F6 /* ZEOStatusBarHUDExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZEOStatusBarHUDExampleUITests.m; sourceTree = "<group>"; };
+		1848020A1D9BD36D00B284F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184802171D9BD3D300B284F6 /* ZEOStatusBarHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZEOStatusBarHUD.bundle; sourceTree = "<group>"; };
+		184802181D9BD3D300B284F6 /* ZEOStatusBarHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZEOStatusBarHUD.h; sourceTree = "<group>"; };
+		184802191D9BD3D300B284F6 /* ZEOStatusBarHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZEOStatusBarHUD.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		184801DD1D9BD36D00B284F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184801F61D9BD36D00B284F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184802011D9BD36D00B284F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		184801D71D9BD36D00B284F6 = {
+			isa = PBXGroup;
+			children = (
+				184801E21D9BD36D00B284F6 /* ZEOStatusBarHUDExample */,
+				184801FC1D9BD36D00B284F6 /* ZEOStatusBarHUDExampleTests */,
+				184802071D9BD36D00B284F6 /* ZEOStatusBarHUDExampleUITests */,
+				184801E11D9BD36D00B284F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		184801E11D9BD36D00B284F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				184801E01D9BD36D00B284F6 /* ZEOStatusBarHUDExample.app */,
+				184801F91D9BD36D00B284F6 /* ZEOStatusBarHUDExampleTests.xctest */,
+				184802041D9BD36D00B284F6 /* ZEOStatusBarHUDExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		184801E21D9BD36D00B284F6 /* ZEOStatusBarHUDExample */ = {
+			isa = PBXGroup;
+			children = (
+				184802161D9BD3D300B284F6 /* ZEOStatusBarHUD */,
+				184801E61D9BD36D00B284F6 /* AppDelegate.h */,
+				184801E71D9BD36D00B284F6 /* AppDelegate.m */,
+				184801E91D9BD36D00B284F6 /* ViewController.h */,
+				184801EA1D9BD36D00B284F6 /* ViewController.m */,
+				184801EC1D9BD36D00B284F6 /* Main.storyboard */,
+				184801EF1D9BD36D00B284F6 /* Assets.xcassets */,
+				184801F11D9BD36D00B284F6 /* LaunchScreen.storyboard */,
+				184801F41D9BD36D00B284F6 /* Info.plist */,
+				184801E31D9BD36D00B284F6 /* Supporting Files */,
+			);
+			path = ZEOStatusBarHUDExample;
+			sourceTree = "<group>";
+		};
+		184801E31D9BD36D00B284F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				184801E41D9BD36D00B284F6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		184801FC1D9BD36D00B284F6 /* ZEOStatusBarHUDExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				184801FD1D9BD36D00B284F6 /* ZEOStatusBarHUDExampleTests.m */,
+				184801FF1D9BD36D00B284F6 /* Info.plist */,
+			);
+			path = ZEOStatusBarHUDExampleTests;
+			sourceTree = "<group>";
+		};
+		184802071D9BD36D00B284F6 /* ZEOStatusBarHUDExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				184802081D9BD36D00B284F6 /* ZEOStatusBarHUDExampleUITests.m */,
+				1848020A1D9BD36D00B284F6 /* Info.plist */,
+			);
+			path = ZEOStatusBarHUDExampleUITests;
+			sourceTree = "<group>";
+		};
+		184802161D9BD3D300B284F6 /* ZEOStatusBarHUD */ = {
+			isa = PBXGroup;
+			children = (
+				184802171D9BD3D300B284F6 /* ZEOStatusBarHUD.bundle */,
+				184802181D9BD3D300B284F6 /* ZEOStatusBarHUD.h */,
+				184802191D9BD3D300B284F6 /* ZEOStatusBarHUD.m */,
+			);
+			name = ZEOStatusBarHUD;
+			path = ../../ZEOStatusBarHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		184801DF1D9BD36D00B284F6 /* ZEOStatusBarHUDExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1848020D1D9BD36D00B284F6 /* Build configuration list for PBXNativeTarget "ZEOStatusBarHUDExample" */;
+			buildPhases = (
+				184801DC1D9BD36D00B284F6 /* Sources */,
+				184801DD1D9BD36D00B284F6 /* Frameworks */,
+				184801DE1D9BD36D00B284F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZEOStatusBarHUDExample;
+			productName = ZEOStatusBarHUDExample;
+			productReference = 184801E01D9BD36D00B284F6 /* ZEOStatusBarHUDExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		184801F81D9BD36D00B284F6 /* ZEOStatusBarHUDExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184802101D9BD36D00B284F6 /* Build configuration list for PBXNativeTarget "ZEOStatusBarHUDExampleTests" */;
+			buildPhases = (
+				184801F51D9BD36D00B284F6 /* Sources */,
+				184801F61D9BD36D00B284F6 /* Frameworks */,
+				184801F71D9BD36D00B284F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				184801FB1D9BD36D00B284F6 /* PBXTargetDependency */,
+			);
+			name = ZEOStatusBarHUDExampleTests;
+			productName = ZEOStatusBarHUDExampleTests;
+			productReference = 184801F91D9BD36D00B284F6 /* ZEOStatusBarHUDExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		184802031D9BD36D00B284F6 /* ZEOStatusBarHUDExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184802131D9BD36D00B284F6 /* Build configuration list for PBXNativeTarget "ZEOStatusBarHUDExampleUITests" */;
+			buildPhases = (
+				184802001D9BD36D00B284F6 /* Sources */,
+				184802011D9BD36D00B284F6 /* Frameworks */,
+				184802021D9BD36D00B284F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				184802061D9BD36D00B284F6 /* PBXTargetDependency */,
+			);
+			name = ZEOStatusBarHUDExampleUITests;
+			productName = ZEOStatusBarHUDExampleUITests;
+			productReference = 184802041D9BD36D00B284F6 /* ZEOStatusBarHUDExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		184801D81D9BD36D00B284F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "小巨人_______陈依婷";
+				TargetAttributes = {
+					184801DF1D9BD36D00B284F6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8YPD5TN77A;
+					};
+					184801F81D9BD36D00B284F6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8YPD5TN77A;
+						TestTargetID = 184801DF1D9BD36D00B284F6;
+					};
+					184802031D9BD36D00B284F6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8YPD5TN77A;
+						TestTargetID = 184801DF1D9BD36D00B284F6;
+					};
+				};
+			};
+			buildConfigurationList = 184801DB1D9BD36D00B284F6 /* Build configuration list for PBXProject "ZEOStatusBarHUDExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 184801D71D9BD36D00B284F6;
+			productRefGroup = 184801E11D9BD36D00B284F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				184801DF1D9BD36D00B284F6 /* ZEOStatusBarHUDExample */,
+				184801F81D9BD36D00B284F6 /* ZEOStatusBarHUDExampleTests */,
+				184802031D9BD36D00B284F6 /* ZEOStatusBarHUDExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		184801DE1D9BD36D00B284F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184801F31D9BD36D00B284F6 /* LaunchScreen.storyboard in Resources */,
+				184801F01D9BD36D00B284F6 /* Assets.xcassets in Resources */,
+				1848021A1D9BD3D300B284F6 /* ZEOStatusBarHUD.bundle in Resources */,
+				184801EE1D9BD36D00B284F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184801F71D9BD36D00B284F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184802021D9BD36D00B284F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		184801DC1D9BD36D00B284F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1848021B1D9BD3D300B284F6 /* ZEOStatusBarHUD.m in Sources */,
+				184801EB1D9BD36D00B284F6 /* ViewController.m in Sources */,
+				184801E81D9BD36D00B284F6 /* AppDelegate.m in Sources */,
+				184801E51D9BD36D00B284F6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184801F51D9BD36D00B284F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184801FE1D9BD36D00B284F6 /* ZEOStatusBarHUDExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184802001D9BD36D00B284F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184802091D9BD36D00B284F6 /* ZEOStatusBarHUDExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		184801FB1D9BD36D00B284F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184801DF1D9BD36D00B284F6 /* ZEOStatusBarHUDExample */;
+			targetProxy = 184801FA1D9BD36D00B284F6 /* PBXContainerItemProxy */;
+		};
+		184802061D9BD36D00B284F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184801DF1D9BD36D00B284F6 /* ZEOStatusBarHUDExample */;
+			targetProxy = 184802051D9BD36D00B284F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		184801EC1D9BD36D00B284F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184801ED1D9BD36D00B284F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		184801F11D9BD36D00B284F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184801F21D9BD36D00B284F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1848020B1D9BD36D00B284F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1848020C1D9BD36D00B284F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1848020E1D9BD36D00B284F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZEOStatusBarHUDExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZEO.ZEOStatusBarHUDExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1848020F1D9BD36D00B284F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZEOStatusBarHUDExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZEO.ZEOStatusBarHUDExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		184802111D9BD36D00B284F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZEOStatusBarHUDExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZEO.ZEOStatusBarHUDExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZEOStatusBarHUDExample.app/ZEOStatusBarHUDExample";
+			};
+			name = Debug;
+		};
+		184802121D9BD36D00B284F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZEOStatusBarHUDExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZEO.ZEOStatusBarHUDExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZEOStatusBarHUDExample.app/ZEOStatusBarHUDExample";
+			};
+			name = Release;
+		};
+		184802141D9BD36D00B284F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZEOStatusBarHUDExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZEO.ZEOStatusBarHUDExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZEOStatusBarHUDExample;
+			};
+			name = Debug;
+		};
+		184802151D9BD36D00B284F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZEOStatusBarHUDExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZEO.ZEOStatusBarHUDExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZEOStatusBarHUDExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		184801DB1D9BD36D00B284F6 /* Build configuration list for PBXProject "ZEOStatusBarHUDExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1848020B1D9BD36D00B284F6 /* Debug */,
+				1848020C1D9BD36D00B284F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1848020D1D9BD36D00B284F6 /* Build configuration list for PBXNativeTarget "ZEOStatusBarHUDExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1848020E1D9BD36D00B284F6 /* Debug */,
+				1848020F1D9BD36D00B284F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184802101D9BD36D00B284F6 /* Build configuration list for PBXNativeTarget "ZEOStatusBarHUDExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184802111D9BD36D00B284F6 /* Debug */,
+				184802121D9BD36D00B284F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184802131D9BD36D00B284F6 /* Build configuration list for PBXNativeTarget "ZEOStatusBarHUDExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184802141D9BD36D00B284F6 /* Debug */,
+				184802151D9BD36D00B284F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 184801D81D9BD36D00B284F6 /* Project object */;
+}
